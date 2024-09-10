@@ -8348,12 +8348,12 @@ img {
   font-family: San Serif, sans-serif;
 }
 
-.subhead-4.black.build.action {
+/* .subhead-4.black.build.action {
   letter-spacing: -.5px;
   margin-left: -8px;
   font-family: Pixeloidsans Mlxmm, sans-serif;
   font-size: 18px;
-}
+} */
 
 .subhead-4.black.build.action.b {
   color: #000;
@@ -8662,10 +8662,10 @@ img {
   margin-bottom: 10px;
 }
 
-.subhead-3.builder {
+/* .subhead-3.builder {
   text-transform: uppercase;
   font-family: Pixeloidsans Mlxmm, sans-serif;
-}
+} */
 
 .subhead-3.padding {
   margin-bottom: 20px;
@@ -8863,12 +8863,12 @@ img {
   color: #00000080;
 }
 
-.text-cta.digitize {
+/* .text-cta.digitize {
   color: #fff;
   text-transform: uppercase;
   font-family: Pixeloidsans Mlxmm, sans-serif;
   font-size: 12px;
-}
+} */
 
 .text-cta.separate {
   text-align: left;
@@ -9654,11 +9654,11 @@ img {
   margin-left: 20%;
 }
 
-.text-block-34 {
+/* .text-block-34 {
   color: #000;
   font-family: Pixeloidsans Mlxmm, sans-serif;
   font-size: 36px;
-}
+} */
 
 .text-block-34.sub {
   color: #c4c4c4;
@@ -12377,13 +12377,13 @@ html.w-mod-js [data-ix="frome-left"] {
   font-style: normal;
   font-display: swap;
 }
-@font-face {
+/* @font-face {
   font-family: 'Pixeloidsans Mlxmm';
   src: url('../fonts/PixeloidSans-mLxMm.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-}
+} */
 @font-face {
   font-family: 'Lovelo';
   src: url('../fonts/Lovelo_Black.otf') format('opentype');
