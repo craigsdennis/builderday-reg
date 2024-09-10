@@ -17,7 +17,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
 
     // TODO: Verify
 
-    
+    const cloudflareTvLink = "https://cloudflare.tv/event/builder-day-live-stream/xvm4qdgm";
 
     const nativeCalLink = `BEGIN:VCALENDAR
 VERSION:2.0
@@ -39,17 +39,17 @@ END:VCALENDAR`;
     const successHTML = `
         <div class="subhead-2 space-20 black how neurops signup ty">You're in. See you there!</div>
         <div class="body-text black wash">Look out for emails with reminders and info so you can best participate on stream.</div>
-        <a href="${nativeCalLink}" class="cta-button-white traditional black add w-inline-block">
+        <a href="${cloudflareTvLink}" target="_blank" class="cta-button-white traditional black add w-inline-block">
           <div class="text-cta white">Add to Calendar</div><img src="images/Frame-3.svg" loading="lazy" alt="" class="image-81">
         </a>
         <div class="div-block-327">
-          <a href="${googleCalLink}" class="cta-button-white calendar w-inline-block">
+          <a href="${googleCalLink}" target="_blank" class="cta-button-white calendar w-inline-block">
             <div class="text-cta">Google</div><img src="images/Frame-5.svg" loading="lazy" alt="" class="image-81">
           </a>
-          <a href="${nativeCalLink}" class="cta-button-white calendar w-inline-block">
+          <a href="${nativeCalLink}" target="_blank" class="cta-button-white calendar w-inline-block">
             <div class="text-cta">Apple</div><img src="images/Apple_logo_grey.svg" loading="lazy" alt="" class="image-81 apple">
           </a>
-          <a href="${yahooCalLink}" class="cta-button-white calendar w-inline-block">
+          <a href="${yahooCalLink}" target="_blank" class="cta-button-white calendar w-inline-block">
             <div class="text-cta">Yahoo</div><img src="images/yahoo-icon.webp" loading="lazy" alt="" class="image-81 y">
           </a>
         </div>
