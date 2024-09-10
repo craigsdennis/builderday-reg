@@ -20,6 +20,7 @@
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <script type="text/javascript">var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-53838527-9'], ['_trackPageview']);(function() {  var ga = document.createElement('script');  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+  <script type="text/javascript" src="/js/registrations.js"></script>
 </head>
 <body class="body-2 _100">
   <div class="shell">
@@ -113,8 +114,18 @@
       </div>
       <div id="w-node-_861989ee-1571-080b-578f-d4c11ae02cce-46e7247d" class="event-info invert left heft">
         <div class="subhead-2 space-20 black how neurops signup">Register for the Stream</div>
-        <div class="w-form">
-          <form id="email-form" name="email-form" data-name="Email Form" redirect="https://peter-saulitis-portfolio.webflow.io/success#success" data-redirect="https://peter-saulitis-portfolio.webflow.io/success#success" method="get" class="form" data-wf-page-id="666b34fab356ccb646e7247d" data-wf-element-id="71044fa8-35d0-56db-f075-8e9b20648643"><label for="name" class="field-label">Full Name</label><input class="text-field-4 w-input" maxlength="256" name="name" data-name="Name" placeholder="" type="text" id="name"><label for="name-3" class="field-label">Company</label><input class="text-field-3 w-input" maxlength="256" name="name-2" data-name="Name 2" placeholder="" type="text" id="name-2"><label for="email" class="field-label-2">Email </label><input class="text-field-2 w-input" maxlength="256" name="email" data-name="Email" placeholder="" type="email" id="email" required=""><label for="name-3" class="field-label">Country (for prizes)</label><input class="text-field-3 w-input" maxlength="256" name="name-2" data-name="Name 2" placeholder="" type="text" id="name-2"><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Submit"></form>
+        <div class="w-form" id="registration-form-container">
+          <form id="email-form" name="email-form" data-name="Email Form" method="POST" class="form">
+            <label for="full_name" class="field-label">Full Name</label>
+            <input class="text-field-4 w-input" maxlength="256" name="full_name" data-name="Name" placeholder="" type="text" id="name">
+            <label for="company" class="field-label">Company</label>
+            <input class="text-field-3 w-input" maxlength="256" name="company" data-name="Company" placeholder="" type="text" id="company">
+            <label for="email" class="field-label-2">Email </label>
+            <input class="text-field-2 w-input" maxlength="256" name="email" data-name="Email" placeholder="" type="email" id="email" required="">
+            <label for="country" class="field-label">Country (for prizes)</label>
+            <input class="text-field-3 w-input" maxlength="256" name="country" data-name="Country" placeholder="" type="text" id="country">
+            <input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Submit">
+          </form>
           <div class="success-message w-form-done">
             <div class="text-block-36">You&#x27;re in. See you there!</div>
             <div class="button-block vert stack">
