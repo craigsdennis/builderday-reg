@@ -1,0 +1,41 @@
+<svg width="1440" height="701" viewBox="0 0 1440 701" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_16_176)">
+<rect width="1440" height="700" transform="translate(0 0.358398)" fill="url(#paint0_linear_16_176)"/>
+<line opacity="0.2" x1="-3.81641" y1="53.0481" x2="1443.82" y2="53.0482" stroke="#82B6FF" stroke-dasharray="12 6"/>
+<line opacity="0.2" x1="-3.81641" y1="153.048" x2="1443.82" y2="153.048" stroke="#82B6FF"/>
+<line opacity="0.2" x1="-3.81641" y1="253.048" x2="1443.82" y2="253.048" stroke="#82B6FF" stroke-dasharray="12 6"/>
+<line opacity="0.2" x1="-3.81641" y1="353.048" x2="1443.82" y2="353.049" stroke="#82B6FF"/>
+<line opacity="0.2" x1="-3.81641" y1="453.049" x2="1443.82" y2="453.049" stroke="#82B6FF"/>
+<line opacity="0.2" x1="-3.81641" y1="553.049" x2="1443.82" y2="553.049" stroke="#82B6FF" stroke-dasharray="12 6"/>
+<line opacity="0.2" x1="-3.81641" y1="653.049" x2="1443.82" y2="653.049" stroke="#82B6FF"/>
+<line opacity="0.2" x1="23.5918" y1="700" x2="23.5919" y2="-104" stroke="#82B6FF"/>
+<line opacity="0.2" x1="123.592" y1="700" x2="123.592" y2="-104" stroke="#82B6FF" stroke-dasharray="12 6"/>
+<line opacity="0.2" x1="223.592" y1="700" x2="223.592" y2="-104" stroke="#82B6FF"/>
+<line opacity="0.2" x1="323.592" y1="700" x2="323.592" y2="-104" stroke="#82B6FF" stroke-dasharray="12 6"/>
+<line opacity="0.2" x1="423.592" y1="700" x2="423.592" y2="-104" stroke="#82B6FF"/>
+<line opacity="0.2" x1="523.592" y1="700" x2="523.592" y2="-104" stroke="#82B6FF"/>
+<line opacity="0.2" x1="623.592" y1="700" x2="623.592" y2="-104" stroke="#82B6FF"/>
+<line opacity="0.2" x1="723.592" y1="700" x2="723.592" y2="-104" stroke="#82B6FF"/>
+<line opacity="0.2" x1="823.592" y1="700" x2="823.592" y2="-104" stroke="#82B6FF"/>
+<line opacity="0.2" x1="923.592" y1="700" x2="923.592" y2="-104" stroke="#82B6FF" stroke-dasharray="12 6"/>
+<line opacity="0.2" x1="1023.59" y1="700" x2="1023.59" y2="-104" stroke="#82B6FF"/>
+<line opacity="0.2" x1="1123.59" y1="700" x2="1123.59" y2="-104" stroke="#82B6FF"/>
+<line opacity="0.2" x1="1223.59" y1="700" x2="1223.59" y2="-104" stroke="#82B6FF" stroke-dasharray="12 6"/>
+<line opacity="0.2" x1="1323.59" y1="700" x2="1323.59" y2="-104" stroke="#82B6FF"/>
+<line opacity="0.2" x1="1423.59" y1="700" x2="1423.59" y2="-104" stroke="#82B6FF"/>
+<rect x="119.092" y="548.549" width="10" height="10" fill="#086FFF"/>
+<rect x="319.092" y="448.549" width="10" height="10" fill="#2C1EA9"/>
+<rect x="1319.09" y="548.549" width="10" height="10" fill="#2C1EA9"/>
+<rect x="1019" y="48.5481" width="10" height="10" fill="#F6821F"/>
+<rect x="1019.09" y="648.549" width="10" height="10" fill="#086FFF"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_16_176" x1="1440" y1="700" x2="-3.1756e-05" y2="6.53267e-05" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0A004B"/>
+<stop offset="1" stop-color="#070033"/>
+</linearGradient>
+<clipPath id="clip0_16_176">
+<rect width="1440" height="700" fill="white" transform="translate(0 0.358398)"/>
+</clipPath>
+</defs>
+</svg>
