@@ -43,6 +43,7 @@ END:VCALENDAR`;
     const yahooCalLink = `https://calendar.yahoo.com/?v=60&amp;view=d&amp;type=20&amp;title=Builder%20Day%20Live%20Stream&amp;st=20240926T180000Z&amp;dur=0100&amp;desc=This%20is%20and%20isn't%20your%20typical%20%22developer%20week%22%20stream.%20Yes%2C%20we'll%20be%20announcing%20new%20products%20and%20demo'ing%20all%20the%20things.%20But%20there%20will%20be%20no%20black%20turtlenecks.%20Building%20is%20fun%20and%20we're%20gonna%20have%20some%20-%20by%20interacting%20with%20our%20developer%20community%2C%20giving%20away%20some%20merch%2C%20playing%20a%20few%20games%2C%20and%20showing%20off%20what%20our%20devs%20are%20building.%20Join%20us!%0AFollow%20%40CloudflareDev%20and%20https%3A%2F%2Fdiscord.gg%2Fcloudflaredev%C2%A0%5Cn%5CnWatch%20at%20https%3A%2F%2Fcloudflare.tv%2Fevent%2Fxvm4qdgm&amp;in_loc=https%3A%2F%2Fcloudflare.tv%2Fevent%2Fxvm4qdgm`
 
     // Return the registration success HTML snippet
+    // TODO: Hide this in HTML and show it
     const successHTML = `
         <div class="subhead-2 space-20 black how neurops signup ty">You're in. See you there!</div>
         <div class="body-text black wash">Look out for emails with reminders and info so you can best participate on stream.</div>
