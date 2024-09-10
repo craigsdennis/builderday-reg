@@ -1,6 +1,6 @@
 import { drizzle } from 'drizzle-orm/d1';
 
-type Registration {
+type Registration = {
   full_name: string,
   email: string,
   company?: string,
