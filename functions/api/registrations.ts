@@ -6,6 +6,7 @@ type Registration = {
 }
 
 export const onRequest: PagesFunction<Env> = async (context) => {
+    console.log("onRequest starting...");
     // Validate Payload
     const payload: Registration = await context.request.json();
     console.log("Form submitted", payload);
