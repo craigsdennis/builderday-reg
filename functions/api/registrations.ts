@@ -1,5 +1,3 @@
-import { drizzle } from 'drizzle-orm/d1';
-
 type Registration = {
   full_name: string,
   email: string,
@@ -10,6 +8,7 @@ type Registration = {
 export const onRequest: PagesFunction<Env> = async (context) => {
     // Validate Payload
     const payload: Registration = await context.request.json();
+    console.log("Form submitted", payload);
     // Store in D1
     const results = await context.env.DB.prepare(`INSERT (full_name, email, company, country) VALUES (?, ?, ?, ?)`)
       .bind(payload.full_name, payload.email, payload.company, payload.country);
