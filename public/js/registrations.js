@@ -16,6 +16,7 @@ document
 
     // Convert form object to JSON
     const jsonData = JSON.stringify(formObject);
+    console.log({jsonData});
 
     // Send the JSON data to the server using fetch
     fetch("/api/registrations", {
