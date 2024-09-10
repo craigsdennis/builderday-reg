@@ -10,10 +10,17 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     // Validate Payload
     const payload: Registration = await context.request.json();
     console.log("Form submitted", payload);
-    // Store in D1
-    const results = await context.env.DB.prepare(`INSERT INTO registrations (full_name, email, company, country) VALUES (?, ?, ?, ?);`)
-      .bind(payload.full_name, payload.email, payload.company, payload.country)
-      .run();
+    const email = payload.email.toLocaleLowerCase();
+    // Check if registration already exists
+    const response = await context.env.DB.prepare(`SELECT * from registrations WHERE email=?`).bind(email).all();
+    if (response.results.length > 0) {
+      console.log(`Email ${email} already registered`);
+    } else {
+      // Store in D1
+      await context.env.DB.prepare(`INSERT INTO registrations (full_name, email, company, country) VALUES (?, ?, ?, ?);`)
+        .bind(payload.full_name, email, payload.company, payload.country)
+        .run();
+    }
 
     // TODO: Verify
 
