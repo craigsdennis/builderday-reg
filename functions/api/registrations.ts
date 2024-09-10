@@ -38,5 +38,6 @@ export const onRequest: PagesFunction<Env> = async (context) => {
         </a>
       </div>
         `
+      console.log("Returning", successHTML);
     return Response.json({html: successHTML});
   }

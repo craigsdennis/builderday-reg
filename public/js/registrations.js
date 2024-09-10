@@ -2,6 +2,7 @@
 document
   .getElementById("email-form")
   .addEventListener("submit", function (event) {
+    console.log("Form submitted");
     event.preventDefault(); // Prevent the default form submission behavior
 
     // Create a FormData object from the form
