@@ -18,7 +18,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     // TODO: Verify
 
     // Return the registration success HTML snippet
-    const successHTML = `<div id="w-node-_7359cbf4-b772-4df1-c9d9-410a96581110-46e7247d" class="event-info invert left heft">
+    const successHTML = `
         <div class="subhead-2 space-20 black how neurops signup ty">You're in. See you there!</div>
         <div class="body-text black wash">Look out for emails with reminders and info so you can best participate on stream.</div>
         <a href="#" class="cta-button-white traditional black add w-inline-block">
@@ -38,7 +38,6 @@ export const onRequest: PagesFunction<Env> = async (context) => {
         <a href="https://discord.com/invite/cloudflaredev" target="_blank" class="link-block-11 secondary discord w-inline-block"><img src="images/Play-video.svg" loading="lazy" alt="" class="play-icon black">
           <div class="text-cta">Join the Discussion</div><img src="images/Frame-4.svg" loading="lazy" alt="" class="image-82">
         </a>
-      </div>
         `
       console.log("Returning", successHTML);
     return Response.json({html: successHTML});
