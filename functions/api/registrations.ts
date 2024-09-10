@@ -46,9 +46,9 @@ END:VCALENDAR`;
           <a href="${googleCalLink}" target="_blank" class="cta-button-white calendar w-inline-block">
             <div class="text-cta">Google</div><img src="images/Frame-5.svg" loading="lazy" alt="" class="image-81">
           </a>
-          <button href="${nativeCalLink}" target="_blank" class="cta-button-white calendar w-inline-block">
+          <a href="${cloudflareTvLink}" target="_blank" class="cta-button-white calendar w-inline-block">
             <div class="text-cta">Apple</div><img src="images/Apple_logo_grey.svg" loading="lazy" alt="" class="image-81 apple">
-          </button>
+          </a>
           <a href="${yahooCalLink}" target="_blank" class="cta-button-white calendar w-inline-block">
             <div class="text-cta">Yahoo</div><img src="images/yahoo-icon.webp" loading="lazy" alt="" class="image-81 y">
           </a>
