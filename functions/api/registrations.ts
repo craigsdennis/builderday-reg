@@ -11,7 +11,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     const payload: Registration = await context.request.json();
     console.log("Form submitted", payload);
     // Store in D1
-    const results = await context.env.DB.prepare(`INSERT (full_name, email, company, country) VALUES (?, ?, ?, ?)`)
+    const results = await context.env.DB.prepare(`INSERT registrations (full_name, email, company, country) VALUES (?, ?, ?, ?);`)
       .bind(payload.full_name, payload.email, payload.company, payload.country)
       .run();
 
